@@ -1,7 +1,9 @@
 :root {
     --bgc: #FFFFFF;
     --text-color: #4d5ae5;
-    --nav-color: #2e2f42;
+    --dark-color: #2e2f42;
+    --dark-blue-item: #434455;
+    --color-light: #F4F4FD;
 }
 
 /* Base styles */
@@ -23,6 +25,8 @@ body {
 
 /* Advanced styles */
 
+/* Nav */
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -34,7 +38,7 @@ body {
 }
 
 .span-logo {
-    color: var(--nav-color);
+    color: var(--dark-color);
 }
 
 .nav-item {
@@ -42,5 +46,123 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--nav-color);
+    color: var(--dark-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #404bbf;
+}
+
+/* Address */
+.address-block {
+    font-style: normal;
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-item);
+
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--dark-color);
+}
+
+.hero-section {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* Benefits section */
+.benefits-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.benefits-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-item);
+}
+
+/* Workflow section */
+.workflow-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+/* Our team section */
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+/* Footer section */
+.footer {
+    background-color: var(--dark-color);
+}
+
+.span-logo-footer {
+    color: #f4f4fd
+}
+
+.footer-desc {
+    line-height: 1.5;
+    color: var(--color-light);
+    letter-spacing: 0.02e;
+}
+
+/* Portfolio Main */
+.portfolio-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+    background-color: var(--color-light);
+}
+
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer
 }
